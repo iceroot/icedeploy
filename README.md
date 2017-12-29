@@ -12,12 +12,12 @@ icedeploy是一个基于无入侵原则设计的Tomcat部署工具.
 5. 服务端不可运行额外的程序
 
 程序中用的参数解释:
-localFileName -- 本地war文件路径,完整的文件名(war结尾)
-remoteTomcat -- 远程Tomcat的位置,路径名
-remoteTemp -- 远程临时war文件位置,路径名
-remoteBak -- 远程备份文件位置,路径名(可缺省,使用null)
-jdkHome -- jdk环境变量JAVA_HOME对应的路径,路径名
-url -- 在客户端浏览器中监测部署是否正确的url
+1. localFileName -- 本地war文件路径,完整的文件名(war结尾)
+2. remoteTomcat -- 远程Tomcat的位置,路径名
+3. remoteTemp -- 远程临时war文件位置,路径名
+4. remoteBak -- 远程备份文件位置,路径名(可缺省,使用null)
+5. jdkHome -- jdk环境变量JAVA_HOME对应的路径,路径名
+6. url -- 在客户端浏览器中监测部署是否正确的url
 
 icedeploy
 Automated deployment tools
